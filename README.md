@@ -51,15 +51,16 @@ Vehicle Dimensions Efficiency Predictor
 │   └── processed/         # Fully processed data ready for analysis
 │   
 │
-├── README.md
 │
 │
-└── notebooks/
-    ├── 01_data_collection
-    ├── 02_data_cleaning__vehicle_energy_consumption.ipynb
-    ├── 02_data_cleaning__vehicle_dimnsions.ipynb
-    ├── 02_data_cleaning__consolidated.ipynb
-    ├── 03_feature_build.ipynb
-    ├── 04_model_training__classical.ipynb
-    └── 04_model_training__deep_learning.ipynb
+├── notebooks/
+│    ├── 01_data_collection
+│    ├── 02.1_data_cleaning__vehicle_energy_consumption.ipynb
+│    ├── 02.2_data_cleaning__vehicle_dimnsions.ipynb
+│    ├── 02.3_data_cleaning__consolidated.ipynb
+│    ├── 03_feature_build.ipynb
+│    ├── 04.1_model_training__classical.ipynb
+│    ├── 04.2_model_training__deep_learning.ipynb
+│
+└── README.md
 ```
