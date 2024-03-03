@@ -1,1 +1,65 @@
-{"cells":[{"cell_type":"markdown","source":["# **Hackathon Category: Best Real-World AI Application Built with Microsoft Fabric**\n","\n","# Vehicle Dimensions Efficiency Predictor\n","\n","## Introduction\n","\n","This project develops a model to predict energy efficiency metrics using vehicle dimension data. It represents a novel approach in the automotive industry, addressing both environmental and economic challenges. This document details the innovation, technical merits, and potential impact of the model.\n","\n","### **Innovation**\n","\n","#### Conceptual Novelty\n","\n","- **Integration of Physical Attributes**: This project is pioneering in its use of vehicle dimensions as a predictive basis for energy efficiency, blending physical engineering principles with advanced data science.\n","- **Advanced Analytics**: It employs sophisticated machine learning techniques to analyze and predict energy efficiency, surpassing traditional empirical or simulation-based methods.\n","\n","#### Technical Merits\n","\n","- **Precision Modeling**: Focusing on vehicle dimensions allows for the discovery of subtle correlations, leading to highly accurate predictions.\n","- **Adaptability**: The model is designed for ongoing improvement, capable of integrating new data to enhance its precision and relevance.\n","\n","### **Impact**\n","\n","#### Real-world Relevance\n","\n","- **Environmental Sustainability**: Predictive insights from the model enable stakeholders to make choices favoring more sustainable vehicle designs.\n","- **Economic Benefits**: It helps manufacturers and consumers identify vehicles likely to offer superior fuel economy, thus lowering costs and environmental footprints.\n","\n","#### Problem Solving\n","\n","- **Design Optimization**: Assists manufacturers in optimizing vehicle designs for energy efficiency without sacrificing performance or aesthetics.\n","- **Regulatory Compliance**: Supports manufacturers in adhering to strict emissions and efficiency standards.\n","\n","#### Potential Supplementary Use Cases\n","\n","- **Urban Planning**: Can inform vehicle size regulations in urban areas to reduce congestion and pollution.\n","- **Fleet Management**: Enables fleet operators to select energy-efficient vehicles, lowering operational costs and carbon emissions.\n","- **Consumer Guidance**: A public version of the model could help consumers choose vehicles based on energy efficiency, promoting environmental sustainability.\n","\n","### **Conclusion**\n","\n","The development of a model that predicts energy efficiency from vehicle dimensions is an innovative breakthrough with broad implications. It addresses the critical issue of vehicle energy efficiency, offering a valuable tool for manufacturers, policymakers, and consumers to make informed, sustainable decisions.\n","\n","## Project Structure\n","\n","```\n","Vehicle Dimensions Efficiency Predictor\n","│\n","├── data/\n","│   ├── raw/               # Original, unmodified data\n","│   ├── intermediate/      # Data after initial processing\n","│   └── processed/         # Fully processed data ready for analysis\n","│   \n","│\n","├── README.md\n","│\n","│\n","└── notebooks/\n","    ├── 01_data_collection\n","    ├── 02_data_cleaning__vehicle_energy_consumption.ipynb\n","    ├── 02_data_cleaning__vehicle_dimnsions.ipynb\n","    ├── 02_data_cleaning__consolidated.ipynb\n","    ├── 03_feature_build.ipynb\n","    ├── 04_model_training__classical.ipynb\n","    └── 04_model_training__deep_learning.ipynb\n","```"],"metadata":{"nteract":{"transient":{"deleting":false}}},"id":"088341b5-483d-4e2d-80a2-49eb614e59e7"}],"metadata":{"language_info":{"name":"python"},"kernel_info":{"name":"synapse_pyspark"},"microsoft":{"language":"python"},"widgets":{},"nteract":{"version":"nteract-front-end@1.0.0"},"kernelspec":{"name":"synapse_pyspark","language":"Python","display_name":"Synapse PySpark"},"spark_compute":{"compute_id":"/trident/default"}},"nbformat":4,"nbformat_minor":5}
+# **Hackathon Category: Best Real-World AI Application Built with Microsoft Fabric**
+
+# Vehicle Dimensions Efficiency Predictor
+
+## Introduction
+
+This project develops a model to predict energy efficiency metrics using vehicle dimension data. It represents a novel approach in the automotive industry, addressing both environmental and economic challenges. This document details the innovation, technical merits, and potential impact of the model.
+
+### **Innovation**
+
+#### Conceptual Novelty
+
+- **Integration of Physical Attributes**: This project is pioneering in its use of vehicle dimensions as a predictive basis for energy efficiency, blending physical engineering principles with advanced data science.
+- **Advanced Analytics**: It employs sophisticated machine learning techniques to analyze and predict energy efficiency, surpassing traditional empirical or simulation-based methods.
+
+#### Technical Merits
+
+- **Precision Modeling**: Focusing on vehicle dimensions allows for the discovery of subtle correlations, leading to highly accurate predictions.
+- **Adaptability**: The model is designed for ongoing improvement, capable of integrating new data to enhance its precision and relevance.
+
+### **Impact**
+
+#### Real-world Relevance
+
+- **Environmental Sustainability**: Predictive insights from the model enable stakeholders to make choices favoring more sustainable vehicle designs.
+- **Economic Benefits**: It helps manufacturers and consumers identify vehicles likely to offer superior fuel economy, thus lowering costs and environmental footprints.
+
+#### Problem Solving
+
+- **Design Optimization**: Assists manufacturers in optimizing vehicle designs for energy efficiency without sacrificing performance or aesthetics.
+- **Regulatory Compliance**: Supports manufacturers in adhering to strict emissions and efficiency standards.
+
+#### Potential Supplementary Use Cases
+
+- **Urban Planning**: Can inform vehicle size regulations in urban areas to reduce congestion and pollution.
+- **Fleet Management**: Enables fleet operators to select energy-efficient vehicles, lowering operational costs and carbon emissions.
+- **Consumer Guidance**: A public version of the model could help consumers choose vehicles based on energy efficiency, promoting environmental sustainability.
+
+### **Conclusion**
+
+The development of a model that predicts energy efficiency from vehicle dimensions is an innovative breakthrough with broad implications. It addresses the critical issue of vehicle energy efficiency, offering a valuable tool for manufacturers, policymakers, and consumers to make informed, sustainable decisions.
+
+## Project Structure
+
+```
+Vehicle Dimensions Efficiency Predictor
+│
+├── data/
+│   ├── raw/               # Original, unmodified data
+│   ├── intermediate/      # Data after initial processing
+│   └── processed/         # Fully processed data ready for analysis
+│   
+│
+├── README.md
+│
+│
+└── notebooks/
+    ├── 01_data_collection
+    ├── 02_data_cleaning__vehicle_energy_consumption.ipynb
+    ├── 02_data_cleaning__vehicle_dimnsions.ipynb
+    ├── 02_data_cleaning__consolidated.ipynb
+    ├── 03_feature_build.ipynb
+    ├── 04_model_training__classical.ipynb
+    └── 04_model_training__deep_learning.ipynb
+```
